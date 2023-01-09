@@ -1,0 +1,4 @@
+SQL EXCEPTION: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "project_pkey"
+  Detail: Key (name)=(fernando) already exists.
+  Where: SQL statement "INSERT INTO PROJECT(name, description,owner_username) VALUES (project_name, description,owner_username)"
+PL/pgSQL function createproject(character varying,character varying,character varying,character varying) line 10 at SQL statement.message
